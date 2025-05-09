@@ -119,6 +119,9 @@ export const userConfig = {
         "MySQL",
         "PostgreSQL",
         "Docker",
+        "AWS (EC2/S3)",
+        "FastApi",
+        "JWT"
     ],
 
     extraCurricularRoles: [
