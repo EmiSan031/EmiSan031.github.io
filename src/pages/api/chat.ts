@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
 import Groq from 'groq-sdk';
 
-const groq = new Groq({
-  apiKey: import.meta.env.GROQ_API_KEY,
-});
-
 export const POST: APIRoute = async ({ request }) => {
+  const groq = new Groq({
+    apiKey: import.meta.env.GROQ_API_KEY,
+  });
+
   try {
     const body = await request.json();
 
@@ -28,7 +28,7 @@ export const POST: APIRoute = async ({ request }) => {
       }
     );
   } catch (error) {
-    console.error(error); 
+    console.error(error);
     return new Response(
       JSON.stringify({
         error: 'Failed to generate response',
@@ -42,3 +42,4 @@ export const POST: APIRoute = async ({ request }) => {
     );
   }
 };
+
