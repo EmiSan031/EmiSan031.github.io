@@ -190,9 +190,9 @@ export const userConfig = {
 
     // SEO Configuration
     seo: {
-        title: 'Abdelrahman Saleh - Software Developer',
-        description: 'Software Developer based in Egypt specializing in React, Node.js, and modern web technologies',
-        keywords: ['Software Developer', 'React', 'Node.js', 'Web Development', 'Egypt'],
+        title: 'Emiliano Sanchez Dominguez - Software Developer',
+        description: 'Software Developer based in Mexico specializing in FastAPi, Node.js, and modern web technologies',
+        keywords: ['Software Developer', 'React', 'Node.js', 'Web Development', 'Mexico'],
     },
 
     // Theme Configuration
