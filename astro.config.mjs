@@ -24,7 +24,6 @@ export default defineConfig({
   ],
 
   output: 'static', // ✅ GitHub Pages only supports static
-  // adapter: vercel(), ❌ remove or comment out
   devToolbar: {
     enabled: false,
   },
