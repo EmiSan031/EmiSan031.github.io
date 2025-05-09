@@ -1,0 +1,217 @@
+{
+    "id": "ocoyucango",
+    "title": "OcoyucanGo",
+    "description": "An Android mobile application developed to promote ecotourism and biodiversity conservation in the Ocoyucan region. The app allows visitors to the Tenzo Reserve in Puebla to identify plants using the camera, access detailed information stored in a database, record routes on maps, utilize a gamification system, and manage user login and registration.",
+    "repoUrl": "https://github.com/danyflores7/OcoyucanGo",
+    "liveUrl": "https://drive.google.com/file/d/1fPJYfXUYirXmGujzlnxSedmbRkr5h_V7/view?usp=sharing",
+    "techStack": [
+      "Kotlin",
+      "Firebase Authentication",
+      "Firebase Firestore",
+      "Firebase Storage",
+      "Firebase Cloud Functions",
+      "PlantNet API",
+      "Android SDK"
+    ],
+    "structure": {
+      "root": "OcoyucanGo",
+      "children": [
+        {
+          "name": ".idea",
+          "type": "directory"
+        },
+        {
+          "name": "app",
+          "type": "directory",
+          "children": [
+            {
+              "name": "src",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "main",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "java",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "com",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "example",
+                              "type": "directory",
+                              "children": [
+                                {
+                                  "name": "ocoyucango",
+                                  "type": "directory",
+                                  "children": [
+                                    {
+                                      "name": "MainActivity.kt",
+                                      "type": "file"
+                                    },
+                                    {
+                                      "name": "CameraActivity.kt",
+                                      "type": "file"
+                                    },
+                                    {
+                                      "name": "LoginActivity.kt",
+                                      "type": "file"
+                                    },
+                                    {
+                                      "name": "RegisterActivity.kt",
+                                      "type": "file"
+                                    },
+                                    {
+                                      "name": "RouteTracker.kt",
+                                      "type": "file"
+                                    },
+                                    {
+                                      "name": "PlantIdentifier.kt",
+                                      "type": "file"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "res",
+                      "type": "directory",
+                      "children": [
+                        {
+                          "name": "layout",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "activity_main.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "activity_camera.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "activity_login.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "activity_register.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "activity_route_tracker.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "activity_plant_identifier.xml",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "drawable",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "ic_launcher.png",
+                              "type": "file"
+                            },
+                            {
+                              "name": "background.jpg",
+                              "type": "file"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "values",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "strings.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "colors.xml",
+                              "type": "file"
+                            },
+                            {
+                              "name": "styles.xml",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AndroidManifest.xml",
+                      "type": "file"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "build.gradle.kts",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "gradle",
+          "type": "directory",
+          "children": [
+            {
+              "name": "wrapper",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "gradle-wrapper.properties",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": ".gitignore",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "type": "file"
+        },
+        {
+          "name": "build.gradle.kts",
+          "type": "file"
+        },
+        {
+          "name": "gradle.properties",
+          "type": "file"
+        },
+        {
+          "name": "gradlew",
+          "type": "file"
+        },
+        {
+          "name": "gradlew.bat",
+          "type": "file"
+        },
+        {
+          "name": "settings.gradle.kts",
+          "type": "file"
+        }
+      ]
+    },
+    "images": [
+      {
+        "url": "/images/OcoyucanGo.jpg",
+        "alt": "OcoyucanGo App Interface"
+      }
+    ]
+  }

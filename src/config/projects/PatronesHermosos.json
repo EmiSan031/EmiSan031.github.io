@@ -1,0 +1,184 @@
+{
+  "id": "patrones-hermosos",
+  "title": "Patrones Hermosos Management System",
+  "description": "A web-based platform developed for a national STEM summer camp in Mexico, designed to optimize participant registration, role assignments, and multi-location administration. The system features automated onboarding, real-time role assignment, dashboards, and certificate generation, emphasizing scalability, clean architecture, and secure access control.",
+  "repoUrl": {
+    "backend": "https://github.com/luissmontess/patronesback",
+    "frontend": "https://github.com/luissmontess/patronesfrontend"
+  },
+  "liveUrl": "https://registro-patroneshermosos.org/public",
+  "techStack": [
+    "Python",
+    "FastAPI",
+    "MySQL",
+    "AWS S3",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS"
+  ],
+  "structure": {
+    "root": "patrones-hermosos",
+    "children": [
+      {
+        "name": "patronesback",
+        "type": "directory",
+        "children": [
+          {
+            "name": "app",
+            "type": "directory",
+            "children": [
+              {
+                "name": "main.py",
+                "type": "file"
+              },
+              {
+                "name": "models",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "user.py",
+                    "type": "file"
+                  },
+                  {
+                    "name": "role.py",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "routes",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "auth.py",
+                    "type": "file"
+                  },
+                  {
+                    "name": "participants.py",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "services",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "auth_service.py",
+                    "type": "file"
+                  },
+                  {
+                    "name": "certificate_service.py",
+                    "type": "file"
+                  }
+                ]
+              },
+              {
+                "name": "utils",
+                "type": "directory",
+                "children": [
+                  {
+                    "name": "jwt_handler.py",
+                    "type": "file"
+                  },
+                  {
+                    "name": "s3_client.py",
+                    "type": "file"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "requirements.txt",
+            "type": "file"
+          },
+          {
+            "name": "README.md",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "patronesfrontend",
+        "type": "directory",
+        "children": [
+          {
+            "name": "pages",
+            "type": "directory",
+            "children": [
+              {
+                "name": "index.tsx",
+                "type": "file"
+              },
+              {
+                "name": "dashboard.tsx",
+                "type": "file"
+              },
+              {
+                "name": "login.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "components",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Navbar.tsx",
+                "type": "file"
+              },
+              {
+                "name": "ParticipantCard.tsx",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "styles",
+            "type": "directory",
+            "children": [
+              {
+                "name": "globals.css",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "public",
+            "type": "directory",
+            "children": [
+              {
+                "name": "logo.png",
+                "type": "file"
+              }
+            ]
+          },
+          {
+            "name": "next.config.js",
+            "type": "file"
+          },
+          {
+            "name": "tsconfig.json",
+            "type": "file"
+          },
+          {
+            "name": "package.json",
+            "type": "file"
+          },
+          {
+            "name": "README.md",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  "images": [
+    {
+      "url": "/images/PatronesHermosos.jpg",
+      "alt": "Patrones Hermosos Dashboard"
+    }
+  ]
+}

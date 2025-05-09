@@ -1,0 +1,93 @@
+{
+    "id": "warehouse3d",
+    "title": "Warehouse 3D Simulation",
+    "description": "A simulation system to optimize package distribution in containers for Karggu, utilizing 3D Bin Packing algorithms. The project combines Python (Flask, Pygame, OpenGL) for the API and 3D visualization, and Julia for simulation logic. It integrates heuristics for forklift coordination and sorting based on weight and dimensions.",
+    "repoUrl": "https://github.com/EmiSan031/Evidencia2_Warehouse3D",
+    "liveUrl": "https://drive.google.com/file/d/1sKiXSSCy8ZqZKy1RApRZywo9-ZFU0xZY/view?usp=sharing",
+    "techStack": [
+      "Python",
+      "Flask",
+      "Pygame",
+      "OpenGL",
+      "Julia"
+    ],
+    "structure": {
+      "root": "Evidencia2_Warehouse3D",
+      "children": [
+        {
+          "name": ".gitignore",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "type": "file"
+        },
+        {
+          "name": "requirements.txt",
+          "type": "file"
+        },
+        {
+          "name": "app.py",
+          "type": "file"
+        },
+        {
+          "name": "simulation.jl",
+          "type": "file"
+        },
+        {
+          "name": "static",
+          "type": "directory",
+          "children": [
+            {
+              "name": "style.css",
+              "type": "file"
+            },
+            {
+              "name": "script.js",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "templates",
+          "type": "directory",
+          "children": [
+            {
+              "name": "index.html",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "visualization",
+          "type": "directory",
+          "children": [
+            {
+              "name": "3d_visualizer.py",
+              "type": "file"
+            },
+            {
+              "name": "models",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "forklift.obj",
+                  "type": "file"
+                },
+                {
+                  "name": "container.obj",
+                  "type": "file"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "images": [
+      {
+        "url": "images/Warehouse3d.jpg",
+        "alt": "Warehouse 3D Simulation Interface"
+      }
+    ]
+  }

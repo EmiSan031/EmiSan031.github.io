@@ -21,7 +21,7 @@ export default function DraggableWindow({
   onClose,
   children,
   initialPosition = { x: 0, y: 0 },
-  initialSize = { width: 400, height: 300 },
+  initialSize = { width: 1000, height: 900 },
   className = '',
 }: DraggableWindowProps) {
   const [position, setPosition] = useState(initialPosition);
