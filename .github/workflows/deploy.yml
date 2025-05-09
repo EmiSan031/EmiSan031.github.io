@@ -28,8 +28,8 @@ jobs:
       - name: Build Astro site
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+      - name: Upload static site to Pages
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -43,5 +43,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
